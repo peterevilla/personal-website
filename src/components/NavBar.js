@@ -16,8 +16,8 @@ const NavBar = () => {
   return (
     <div>
       {!isScrolled ? (
-        <ul className="ml-32 mt-16 lg:ml-64 lg:mt-0">
-          <Fade top cascade>
+        <Fade top cascade>
+          <ul className="ml-32 mt-16 lg:ml-64 lg:mt-0">
             <Scrollchor to="#about">
               <h3 className="text-gray-800 text-lg hover:text-green-600 transition ease-in duration-500">
                 About
@@ -39,8 +39,8 @@ const NavBar = () => {
                 Resume
               </h3>
             </Scrollchor>
-          </Fade>
-        </ul>
+          </ul>
+        </Fade>
       ) : (
         <Fade bottom cascade>
           <nav className="flex fixed top-0 bg-white bg-opacity-75 justify-around">
