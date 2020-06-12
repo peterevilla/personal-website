@@ -21,7 +21,7 @@ function App() {
             {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
             
           </div>
-          <div className="ml-32 mt-16 lg:ml-64 lg:mt-0">
+          <div>
             <NavBar />
           </div>
         </div>
