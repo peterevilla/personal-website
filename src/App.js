@@ -11,15 +11,15 @@ function App() {
       <div className="h-screen">
         <div className="lg:flex  text-md mt-16 ml-16">
           <div className="lg:mr-64 lg:w-1/4 text-lg">
-            <h2 className=" text-gray-700">Pedro Revilla</h2>
-            {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
             <Typical
-              steps={["Full Stack", 1000, "Full Stack Developer", 500]}
+              steps={["Hi", 1000, "Hi, my name is Pedro Revilla", 500]}
               loop={Infinity}
               wrapper="p"
             />
+            <h2 className=" text-gray-700 italic">Full Stack Developer</h2>
+            {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
           </div>
-          <div className="ml-32 mt-16 lg:ml-64 lg:mt-0">
+          <div>
             <NavBar />
           </div>
         </div>
