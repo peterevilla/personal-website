@@ -5,10 +5,13 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Typical from "react-typical";
 
+var bgStyle = {
+  backgroundImage: "url('../bg/bg.png)"
+};
 function App() {
   return (
     <div>
-      <div className="h-screen">
+      <div className="h-screen" style={bgStyle}>
         <div className="lg:flex  text-md mt-16 ml-16">
           <div className="lg:mr-64 lg:w-1/4 text-lg">
           <Typical
