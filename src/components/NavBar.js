@@ -42,8 +42,8 @@ const NavBar = () => {
           </ul>
         </Fade>
       ) : (
-        <Fade bottom cascade>
-          <nav className="flex fixed bg-white lg:bg-white  top-0 lg:flex-col lg:fixed lg:inset-y-0 lg:right-0 lg:mr-16 justify-around lg:justify-center">
+        <Fade bottom >
+          <nav className="flex z-10  fixed ml-12   top-0 lg:flex-col lg:fixed lg:inset-y-0 lg:right-0 lg:mr-16  lg:justify-center">
             <Scrollchor to="#about">
               <h3 className=" text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 About
