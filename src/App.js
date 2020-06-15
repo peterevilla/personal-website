@@ -43,9 +43,9 @@ function App() {
       <footer className="flex flex-col items-center">
               <h2>Let's grab a coffee</h2>
               <div className="lg:flex justify-center mb-8 p-4">
-              <a href="#" className="m-2"><GithubIcon /></a>
-              <a href="#" className="m-2"><LinkedInIcon/></a>
-              <a href="#" className="m-2"><InstagramIcon/></a>
+              <a href="https://github.com/peterevilla" className="m-2"><GithubIcon /></a>
+              <a href="https://www.linkedin.com/in/pedro-revilla/" className="m-2"><LinkedInIcon/></a>
+              <a href="https://www.instagram.com/peterx22/" className="m-2"><InstagramIcon/></a>
               </div>
         </footer>
     </div>
