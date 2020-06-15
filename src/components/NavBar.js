@@ -43,7 +43,7 @@ const NavBar = () => {
         </Fade>
       ) : (
         <Fade bottom cascade>
-          <nav className="flex fixed bg-white top-0  bg-opacity-75 justify-around">
+          <nav className="flex fixed bg-white lg:bg-white  top-0 lg:flex-col lg:fixed lg:inset-y-0 lg:right-0 lg:mr-16 justify-around lg:justify-center">
             <Scrollchor to="#about">
               <h3 className="text-gray-800 text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 About
