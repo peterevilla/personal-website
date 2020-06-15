@@ -19,7 +19,7 @@ function App() {
               wrapper="p"
             />
 
-            <h2 className=" font-bold italic" >Full Stack Developer</h2>
+            <h2 className=" font-bold italic" >Software Engineer</h2>
             {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
             
           </div>
