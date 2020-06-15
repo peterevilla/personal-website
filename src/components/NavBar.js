@@ -16,26 +16,26 @@ const NavBar = () => {
   return (
     <div>
       {!isScrolled ? (
-        <Fade top cascade>
+        <Fade top >
           <ul className="ml-32 mt-16 lg:ml-64 lg:mt-0">
             <Scrollchor to="#about">
-              <h3 className="text-gray-800 text-lg hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg hover:text-green-600 transition ease-in duration-500">
                 About
               </h3>
             </Scrollchor>
 
             <Scrollchor to="#skills">
-              <h3 className="text-gray-800 text-lg hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg hover:text-green-600 transition ease-in duration-500">
                 Skills
               </h3>
             </Scrollchor>
             <Scrollchor to="#projects">
-              <h3 className="text-gray-800 text-lg hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg hover:text-green-600 transition ease-in duration-500">
                 Projects
               </h3>
             </Scrollchor>
             <Scrollchor to="#resume">
-              <h3 className="text-gray-800 text-lg hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg hover:text-green-600 transition ease-in duration-500">
                 Resume
               </h3>
             </Scrollchor>
@@ -43,24 +43,24 @@ const NavBar = () => {
         </Fade>
       ) : (
         <Fade bottom cascade>
-          <nav className="flex fixed top-0 bg-white bg-opacity-75 justify-around">
+          <nav className="flex fixed bg-white lg:bg-white  top-0 lg:flex-col lg:fixed lg:inset-y-0 lg:right-0 lg:mr-16 justify-around lg:justify-center">
             <Scrollchor to="#about">
-              <h3 className="text-gray-800 text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 About
               </h3>
             </Scrollchor>
             <Scrollchor to="#skills">
-              <h3 className="text-gray-800 text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 Skills
               </h3>
             </Scrollchor>
             <Scrollchor to="#projects">
-              <h3 className="text-gray-800 text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 Projects
               </h3>
             </Scrollchor>
             <Scrollchor to="#resume">
-              <h3 className="text-gray-800 text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
+              <h3 className=" text-lg mx-2 hover:text-green-600 transition ease-in duration-500">
                 Resume
               </h3>
             </Scrollchor>
