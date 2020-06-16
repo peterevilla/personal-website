@@ -8,12 +8,11 @@ import GithubIcon from "./components/icons/GithubIcon.js";
 import InstagramIcon from "./components/icons/InstagramIcon.js";
 import LinkedInIcon from "./components/icons/LinkedInIcon.js";
 
-
 // const bg = require('./bg/bg.png')
 // style={{ backgroundImage: "url("+bg+")" }}
 function App() {
   return (
-    <div>
+    <div className="font-light">
       <div className="h-screen">
         <div className="lg:flex  mt-16 ">
           <div className="lg:mr-64 lg:w-1/4 ml-16 ">
@@ -53,7 +52,7 @@ function App() {
       <section className="h-screen" id="about">
         <About />
       </section>
-      <section className="h-screen" id="skills">
+      <section id="skills">
         <Skills />
       </section>
       <section className="h-screen" id="projects">
