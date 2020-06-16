@@ -8,6 +8,7 @@ import GithubIcon from "./components/icons/GithubIcon.js";
 import InstagramIcon from "./components/icons/InstagramIcon.js";
 import LinkedInIcon from "./components/icons/LinkedInIcon.js";
 
+
 // const bg = require('./bg/bg.png')
 // style={{ backgroundImage: "url("+bg+")" }}
 function App() {
