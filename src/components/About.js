@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../images/peepAvatar.png'
+import avatar from '../images/avatar.svg'
 import Fade from "react-reveal/Fade";
 
 const About = () => {
