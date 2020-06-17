@@ -8,12 +8,12 @@ import GithubIcon from "./components/icons/GithubIcon.js";
 import InstagramIcon from "./components/icons/InstagramIcon.js";
 import LinkedInIcon from "./components/icons/LinkedInIcon.js";
 
-const bg = require('../bg/bg.svg')
+const bg = require('./bg/bg.svg')
 
 function App() {
   return (
-    <div className="font-light" style={{ backgroundImage: "url("+bg+")" }}>
-      <div className="h-screen">
+    <div className="font-light">
+      <div className="h-screen bg-no-repeat bg-fixed  bg-bottom" style={{ backgroundImage: "url("+bg+")" }}>
         <div className="lg:flex  mt-16 ">
           <div className="lg:mr-64 lg:w-1/4 ml-16 ">
             <div className="font-bold">
