@@ -31,7 +31,7 @@ function App() {
           </div>
           <div>
             <NavBar />
-            <ul className="ml-32 mt-64 lg:ml-16 lg:mt-16">
+            <ul className="ml-32 mt-64 lg:ml-16 lg:mt-16 ">
               <a href="mailto:webmaster@example.com">peterevilla@gmail.com</a>
               <div className="flex lg:justify-center p-2">
                 <a href="https://github.com/peterevilla" className="m-2">
@@ -49,7 +49,9 @@ function App() {
               </div>
             </ul>
           </div>
+          
         </div>
+        
       </div>
 
       <section className="h-screen" id="about">
