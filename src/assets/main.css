@@ -22,7 +22,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /**
@@ -577,6 +577,12 @@ img,
 video {
   max-width: 100%;
   height: auto;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 }
 
 .container {
@@ -52144,3 +52150,4 @@ video {
     transition-duration: 1000ms;
   }
 }
+
