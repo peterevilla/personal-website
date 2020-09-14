@@ -10,12 +10,15 @@ import LinkedInIcon from "./components/icons/LinkedInIcon.js";
 
 const bg = require("./bg/bg.svg");
 
+
 function App() {
+ 
   return (
-    <div className="font-light">
+    <div className="font-light font-montserrat">
       <div
-        className="h-screen bg-no-repeat bg-fixed  bg-bottom"
-        style={{ backgroundImage: "url(" + bg + ")" }}
+        
+        className="h-screen bg-opacity-25 bg-no-repeat  bg-top"
+        style={{ backgroundImage: "url(" + bg + ")"}}
       >
         <div className="lg:flex  mt-16 ">
           <div className="lg:mr-64 lg:w-1/4 ml-16 ">
@@ -26,7 +29,7 @@ function App() {
               />
             </div>
 
-            <h2 className="text-blue-700 text-bold">Software Engineer</h2>
+            <h2 className=" text-purple-700 text-bold">Software Engineer</h2>
             {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
           </div>
           <div>
