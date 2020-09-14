@@ -17,7 +17,7 @@ function App() {
     <div className="font-light font-montserrat">
       <div
         
-        className="h-screen bg-opacity-25 bg-no-repeat  bg-top"
+        className="h-screen bg-opacity-25 bg-no-repeat  bg-bottom bg-fixed"
         style={{ backgroundImage: "url(" + bg + ")"}}
       >
         <div className="lg:flex  mt-16 ">
@@ -29,7 +29,7 @@ function App() {
               />
             </div>
 
-            <h2 className=" text-purple-700 text-bold">Software Engineer</h2>
+            <h2 className=" text-indigo-500 text-bold">Software Engineer</h2>
             {/* <h2 className="italic text-gray-800">Full Stack Developer</h2> */}
           </div>
           <div>

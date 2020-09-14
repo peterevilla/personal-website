@@ -4,10 +4,10 @@ import Fade from "react-reveal/Fade";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap lg:flex-no-wrap justify-center object-center">
+    <div className="lg:flex lg:flex-no-wrap justify-center object-center">
       <Fade>
-        <div className="mt-64 w-4/12">
-          <p className="text-justify">
+        <div className="mt-64 lg:w-4/12">
+          <p className="lg:text-justify p-4 text-justify">
             Hello! I'm Pedro, a software engineer based in Chicago,IL.
             <br />
             <br />I graduated as an Electronic Engineer in Venezuela, since then
@@ -17,7 +17,7 @@ const About = () => {
         </div>
       </Fade>
       <Fade>
-        <img className="mt-64" src={avatar} alt="avatar" />
+        <img className="lg:mt-64" src={avatar} alt="avatar" />
       </Fade>
     </div>
   );
