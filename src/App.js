@@ -17,7 +17,7 @@ function App() {
     <div className="font-light font-montserrat">
       <div
         
-        className="h-screen bg-opacity-25 bg-no-repeat  bg-bottom bg-fixed"
+        className="h-screen bg-opacity-25 bg-no-repeat  bg-bottom"
         style={{ backgroundImage: "url(" + bg + ")"}}
       >
         <div className="lg:flex  mt-16 ">
