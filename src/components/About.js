@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div className="lg:flex lg:flex-no-wrap justify-center object-center">
+      <h1 className="text-3xl text-center pt-32">About me</h1>
       <Fade>
         <div className="mt-64 lg:w-4/12">
           <p className="lg:text-justify p-4 text-justify">
@@ -16,7 +17,7 @@ const About = () => {
           </p>
         </div>
       </Fade>
-      <Fade>
+      <Fade top>
         <img className="lg:mt-64" src={avatar} alt="avatar" />
       </Fade>
     </div>

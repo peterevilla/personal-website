@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const SkillsCard = ({ skills }) => {
   return (
-    <div class="lg:max-w-sm rounded overflow-hidden bg-gray-200 shadow-sm hover:shadow-lg hover:bg-yellow-100
+    <div class="lg:max-w-sm rounded overflow-hidde bg-blue-100 shadow hover:shadow-lg hover:bg-yellow-200
     transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-80
     ">
       <div class="px-6 py-4">
