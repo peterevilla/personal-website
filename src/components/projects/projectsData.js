@@ -1,7 +1,8 @@
 export const projectsData = [
     {
         title: "Conway's Game of Life",
-        info: "Info"
+        info: "Info",
+        image: "../../images/conway.jpeg"
     },
     {
 
