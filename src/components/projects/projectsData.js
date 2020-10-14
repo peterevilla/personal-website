@@ -8,6 +8,11 @@ export const projectsData = [
         github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
     {
-
+        title: "Kanban Board",
+        info: "Info",
+        image: require('../../images/kanban.png'),
+        tags: "React, AWS Amplify-Appsync",
+        page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
+        github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
 ];

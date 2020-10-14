@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="lg:flex lg:flex-no-wrap justify-center object-center">
       <Fade>
-        <div className=" mt-64 lg:w-4/12">
+        <div className=" mt-64 lg:w-2/5">
           <h1 className="text-3xl pr-8 pl-4">About me</h1>
           <p className="lg:text-justify p-4 text-justify">
             Hello, I am Pedro, I am a software Engineer based in Chicago, IL.
