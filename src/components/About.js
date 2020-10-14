@@ -5,22 +5,23 @@ import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div className="lg:flex lg:flex-no-wrap justify-center object-center">
-      
       <Fade>
         <div className=" mt-64 lg:w-4/12">
-        <h1 className="text-3xl pr-8 pl-4">About me</h1>
+          <h1 className="text-3xl pr-8 pl-4">About me</h1>
           <p className="lg:text-justify p-4 text-justify">
-            Hello! I'm Pedro, a software engineer based in Chicago,IL.
-            <br />
-            <br />I graduated as an Electronic Engineer in Venezuela, since then
-            I worked more that 6 years in infrastructure as a Backup Engineer and IT
-            support.
+            Hello, I am Pedro, I am a software Engineer based in Chicago, IL.
+            <br/>
+            <br/>
+            I enjoy creating things that live on the Internet. I love to develop
+            design-driven applications and explore new technologies. <br/><br/>
+            I graduated
+            from Electronic Engineering and after 6 year experience in IT and
+            infrastructure I decided to make a turn in my career path adding
+            real value experience to my career as a developer.
           </p>
         </div>
       </Fade>
-      <Fade top>
-        <img className="lg:mt-64" src={avatar} alt="avatar" />
-      </Fade>
+      <img className="lg:mt-64" src={avatar} alt="avatar" />
     </div>
   );
 };
