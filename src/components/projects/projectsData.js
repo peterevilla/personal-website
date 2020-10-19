@@ -8,10 +8,18 @@ export const projectsData = [
         github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
     {
-        title: "Kanban Board",
-        info: "Draggable Kanban Board implementation. This is a Full stack application deployed in AWS Amplify with a graphql schema in AWS Appsync",
+        title: "Trip List",
+        info: "Draggable Kanban Board implementation. This is a Full stack application deployed in AWS Amplify with a graphql schema in AWS Appsync.",
         image: require('../../images/kanban.png'),
-        tags: "React, AWS Amplify-Appsync",
+        tags: "React, AWS Amplify-Appsync.",
+        page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
+        github_url: "https://github.com/peterevilla/conways-game-of-life"
+    },
+    {
+        title: "Kanban Board",
+        info: "Draggable Kanban Board implementation. This is a Full stack application deployed in AWS Amplify with a graphql schema in AWS Appsync.",
+        image: require('../../images/kanban.png'),
+        tags: "React, AWS Amplify-Appsync.",
         page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
         github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
@@ -25,10 +33,18 @@ export const projectsData = [
     },
     {
         title: "The bored app",
-        info: "Select a random task to do if you are bored. Data visualitation from https://www.boredapi.com/ ",
-        image: require('../../images/strings.png'),
+        info: "Select a random task to do if you are bored. Data visualitation from boredapi.",
+        image: require('../../images/bored.png'),
         tags: "React, Redux",
         page_url: "https://stoic-swartz-b792bf.netlify.app/",
         github_url: "https://github.com/peterevilla/React-Redux-App"
+    },
+    {
+        title: "Get github user card",
+        info: "Data visualitation from github API, search any username in github and see some of its stats.",
+        image: require('../../images/user.png'),
+        tags: "React",
+        page_url: "https://elated-engelbart-84a94e.netlify.app/",
+        github_url: "https://github.com/peterevilla/React-Github-User-Card"
     },
 ];

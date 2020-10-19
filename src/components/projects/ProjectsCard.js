@@ -6,7 +6,7 @@ const ProjectsCard = ({ project }) => {
   const tags = project.tags;
   return (
     <div
-      className="p-4 lg:max-w-sm rounded-lg overflow-hidden shadow hover:shadow-lg  bg-white
+      className="p-4 h-auto lg:max-w-sm overflow-hidden  hover:shadow-lg bg-white
     transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-80
     "
     >
