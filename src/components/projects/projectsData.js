@@ -9,7 +9,7 @@ export const projectsData = [
     },
     {
         title: "Kanban Board",
-        info: "Info",
+        info: "Draggable Kanban Board implementation. This is a Full stack application deployed in AWS Amplify with a graphql schema in AWS Appsync",
         image: require('../../images/kanban.png'),
         tags: "React, AWS Amplify-Appsync",
         page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
@@ -22,5 +22,13 @@ export const projectsData = [
         tags: "React, Tailwindcss, ContexAPI, Node JS, postgresql , heroku.",
         page_url: "https://mobile-ecommerce.vercel.app/",
         github_url: "https://github.com/peterevilla/mobile-ecommerce"
+    },
+    {
+        title: "The bored app",
+        info: "Select a random task to do if you are bored. Data visualitation from https://www.boredapi.com/ ",
+        image: require('../../images/strings.png'),
+        tags: "React, Redux",
+        page_url: "https://stoic-swartz-b792bf.netlify.app/",
+        github_url: "https://github.com/peterevilla/React-Redux-App"
     },
 ];
