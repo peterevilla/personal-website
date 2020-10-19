@@ -66,7 +66,7 @@ function App() {
       <section className="h-screen" id="projects">
         <Projects />
       </section>
-      <footer className="flex flex-col items-center">
+      <footer className="flex mt-64  flex-col items-center">
         <h2>Let's grab a coffee</h2>
         <div className="flex justify-center mb-8 p-4">
           <a href="https://github.com/peterevilla" className="m-2">
