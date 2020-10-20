@@ -7,6 +7,7 @@ import Typical from "react-typical";
 import GithubIcon from "./components/icons/GithubIcon.js";
 import InstagramIcon from "./components/icons/InstagramIcon.js";
 import LinkedInIcon from "./components/icons/LinkedInIcon.js";
+import avatar2 from "./images/avatar2.svg";
 
 const bg = require("./bg/bg.svg");
 
@@ -66,6 +67,7 @@ function App() {
       <section className="h-screen" id="projects">
         <Projects />
         <div className="flex mt-40  flex-col items-center">
+        <img className="lg:mt-8" src={avatar2} alt="avatar2" />
         <h2>Let's grab a virtual coffee</h2>
         <div className="flex justify-center mb-8 p-4">
           <a href="https://github.com/peterevilla" className="m-2">
