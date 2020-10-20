@@ -8,12 +8,20 @@ export const projectsData = [
         github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
     {
+        title: "Strings",
+        info: "A simple full stack ecommerce implementation made in React JS and the API was build in Node JS deployed in Heroku.",
+        image: require('../../images/strings.png'),
+        tags: "React, Tailwindcss, ContexAPI, Node JS, postgresql , heroku.",
+        page_url: "https://mobile-ecommerce.vercel.app/",
+        github_url: "https://github.com/peterevilla/mobile-ecommerce"
+    },
+    {
         title: "Trip List",
-        info: "Draggable Kanban Board implementation. This is a Full stack application deployed in AWS Amplify with a graphql schema in AWS Appsync.",
-        image: require('../../images/kanban.png'),
+        info: "First fase of Trip List project, an app to keep track of your items in your next trip. App builded for web mobile, code in React/Typescript. The API was build in NodeJS. The app is running in a Docker container.",
+        image: require('../../images/trip.png'),
         tags: "React, AWS Amplify-Appsync.",
-        page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
-        github_url: "https://github.com/peterevilla/conways-game-of-life"
+        page_url: "https://gottapackup.com/",
+        github_url: "https://github.com/revilla-meza"
     },
     {
         title: "Kanban Board",
@@ -23,14 +31,7 @@ export const projectsData = [
         page_url: "https://master.d148ub2y9ei3f8.amplifyapp.com/",
         github_url: "https://github.com/peterevilla/conways-game-of-life"
     },
-    {
-        title: "Strings",
-        info: "A simple full stack ecommerce implementation made in React JS and the API was build in Node JS deployed in Heroku.",
-        image: require('../../images/strings.png'),
-        tags: "React, Tailwindcss, ContexAPI, Node JS, postgresql , heroku.",
-        page_url: "https://mobile-ecommerce.vercel.app/",
-        github_url: "https://github.com/peterevilla/mobile-ecommerce"
-    },
+   
     {
         title: "The bored app",
         info: "Select a random task to do if you are bored. Data visualitation from boredapi.",

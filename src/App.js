@@ -57,7 +57,7 @@ function App() {
         
       </div>
 
-      <section className="h-screen" id="about">
+      <section className="h-screen mb-64" id="about">
         <About />
       </section>
       <section id="skills">
@@ -65,9 +65,8 @@ function App() {
       </section>
       <section className="h-screen" id="projects">
         <Projects />
-      </section>
-      {/* <footer className="flex mt-64  flex-col items-center">
-        <h2>Let's grab a coffee</h2>
+        <div className="flex mt-40  flex-col items-center">
+        <h2>Let's grab a virtual coffee</h2>
         <div className="flex justify-center mb-8 p-4">
           <a href="https://github.com/peterevilla" className="m-2">
             <GithubIcon />
@@ -79,7 +78,9 @@ function App() {
             <InstagramIcon />
           </a>
         </div>
-      </footer> */}
+      </div>
+      </section>
+     
     </div>
   );
 }
