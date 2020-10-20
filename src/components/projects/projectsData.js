@@ -19,7 +19,7 @@ export const projectsData = [
         title: "Trip List",
         info: "First fase of Trip List project, an app to keep track of your items in your next trip. App builded for web mobile, code in React/Typescript. The API was build in NodeJS. The app is running in a Docker container.",
         image: require('../../images/trip.png'),
-        tags: "React, AWS Amplify-Appsync.",
+        tags: "React, TypeScript, Node.js, Docker",
         page_url: "https://gottapackup.com/",
         github_url: "https://github.com/revilla-meza"
     },
