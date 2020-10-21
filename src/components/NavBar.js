@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Scrollchor from "react-scrollchor";
 import Fade from "react-reveal/Fade";
+import resume from '../documents/resume.pdf';
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,11 +35,12 @@ const NavBar = () => {
                 Projects
               </h3>
             </Scrollchor>
-            <Scrollchor to="#resume">
+            <a href = {resume} >
               <h3 className="transition duration-500 ease-in-out hover:text-indigo-500 transform hover:-translate-y-1 hover:scale-80">
                 Resume
               </h3>
-            </Scrollchor>
+              </a>
+           
           </ul>
         </Fade>
     {isScrolled &&
@@ -59,11 +61,11 @@ const NavBar = () => {
                 Projects
               </h3>
             </Scrollchor>
-            <Scrollchor to="#resume">
+            <a href = {resume} >
               <h3 className="  mx-2 transition duration-500 ease-in-out hover:text-indigo-500 transform hover:-translate-y-1 hover:scale-80">
                 Resume
               </h3>
-            </Scrollchor>
+            </a>
           </nav>
         </Fade>
 }
