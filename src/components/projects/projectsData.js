@@ -9,9 +9,9 @@ export const projectsData = [
     },
     {
         title: "Strings",
-        info: "A simple full stack ecommerce implementation made in React JS and the API was build in Node JS deployed in Heroku.",
+        info: "A simple full stack ecommerce implementation made in React and the API was build in Node.js deployed in Heroku.",
         image: require('../../images/strings.png'),
-        tags: "React, Tailwindcss, ContexAPI, NodeJS, postgresql , Heroku",
+        tags: "React, Tailwindcss, ContexAPI, Node.js, postgresql , Heroku",
         page_url: "https://mobile-ecommerce.vercel.app/",
         github_url: "https://github.com/peterevilla/mobile-ecommerce"
     },
@@ -19,7 +19,7 @@ export const projectsData = [
         title: "Trip List",
         info: "First phase of Trip List project, an app to keep track of your items in your next trip. App for web mobile, code in React/Typescript. The API was build in NodeJS. The app is running in a Docker container.",
         image: require('../../images/trip.png'),
-        tags: "React, TypeScript, NodeJS, Docker",
+        tags: "React, TypeScript, Node.js, Docker",
         page_url: "https://gottapackup.com/",
         github_url: "https://github.com/revilla-meza"
     },

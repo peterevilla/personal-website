@@ -5,11 +5,11 @@ export const SkillsData = [
   },
   {
     title: "Runtime Enviroment",
-    info: ["NodeJs"],
+    info: ["Node.js"],
   },
   {
     title: "Frameworks and Libraries",
-    info: ["ReactJs", "ExpressJs"],
+    info: ["React.js", "ExpressJs"],
   },
   {
     title: "State Management",
