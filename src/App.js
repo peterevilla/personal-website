@@ -15,7 +15,7 @@ const bg = require("./bg/bg.svg");
 function App() {
  
   return (
-    <div className="font-light font-montserrat">
+    <div className="font-light font-montserrat text-black">
       <div
         
         className="h-screen bg-opacity-25 bg-no-repeat  bg-bottom"
