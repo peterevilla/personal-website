@@ -36,7 +36,7 @@ function App() {
           <div>
             <NavBar />
             <ul className="ml-32 mt-64 lg:ml-16 lg:mt-16 ">
-              <a href="mailto:peterevilla@gmail.com.com">peterevilla@gmail.com</a>
+              <a href="mailto:pedrorevilla2208@gmail.com">pedrorevilla2208@gmail.com</a>
               <div className="flex lg:justify-center p-2">
                 <a href="https://github.com/peterevilla" className="m-2">
                   <GithubIcon />
